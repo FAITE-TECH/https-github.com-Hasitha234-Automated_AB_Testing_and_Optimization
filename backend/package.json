@@ -1,0 +1,21 @@
+{
+  "name": "ab-experiments-backend",
+  "version": "1.0.0",
+  "main": "index.jsx",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.jsx",
+    "dev": "nodemon index.jsx"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "pg": "^8.11.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
